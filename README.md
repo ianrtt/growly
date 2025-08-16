@@ -1,10 +1,11 @@
-![Logo](https://raw.githubusercontent.com/ianrtt/growly/refs/heads/main/public/assets/g_growly.webp)
+<p align="center"><img src="/public/assets/g_growly.webp" height="24" width="24" alt="Growly logo"/></p>
 
-
-![GitHub Repo stars](https://img.shields.io/github/stars/ianrtt/growly?style=plastic)
-![GitHub commit activity](https://img.shields.io/github/commit-activity/t/ianrtt/growly?style=plastic)
-![GitHub contributors](https://img.shields.io/github/contributors/ianrtt/growl?style=plastic)
-![GitHub License](https://img.shields.io/github/license/ianrtt/growly)
+<p align="center">
+<img alt="GitHub forks" src="https://img.shields.io/github/forks/ianrtt/growly?style=plastic&logo=GitHub&color=green">
+<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/ianrtt/growly?style=plastic&logo=GitHub&color=green">
+<img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/t/ianrtt/growly?logo=GitHub&color=green">
+<img alt="GitHub License" src="https://img.shields.io/github/license/ianrtt/growly?style=plastic&color=green">
+</P>
 
 # Introduction
 Growly is a platform where people exchange knowledge directly.
