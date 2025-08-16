@@ -5,11 +5,13 @@
   --foreground: #171717;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+@theme {
+  /* Growly  */
+  --color-growly-main: #1dd16e;
+  --color-growly-main-darker: #25eb7e;
+  --color-growly-white: #ffffff;
+  --color-growly-contrast: #dddddd;
+  /* */
 }
 
 @media (prefers-color-scheme: dark) {
@@ -23,4 +25,9 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.gradientText {
+  @apply bg-gradient-to-t from-gray-600 via-gray-700 to-gray-700 bg-clip-text text-transparent;
 }
