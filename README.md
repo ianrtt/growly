@@ -5,7 +5,7 @@
 <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/ianrtt/growly?style=plastic&logo=GitHub&color=green">
 <img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/t/ianrtt/growly?logo=GitHub&color=green">
 <img alt="GitHub License" src="https://img.shields.io/github/license/ianrtt/growly?style=plastic&color=green">
-</P>
+</p>
 
 # Introduction
 Growly is a platform where people exchange knowledge directly.
