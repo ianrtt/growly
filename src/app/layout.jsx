@@ -55,7 +55,7 @@ export const metadata = {
     siteName: "Growly",
     images: [
       {
-        url: "assets/g_growly.webp",
+        url: "/assets/g_growly.webp",
         width: 1200,
         height: 630,
         alt: "Growly - Knowledge exchange platform."
@@ -68,7 +68,7 @@ export const metadata = {
     card: "summary_large_image",
     title: info.title,
     description: info.description,
-    images: ["assets/g_growly.webp"],
+    images: ["/assets/g_growly.webp"],
   },
   alternates: {
     canonical: info.url

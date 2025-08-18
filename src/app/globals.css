@@ -8,7 +8,8 @@
 @theme {
   /* Growly  */
   --color-growly-main: #1dd16e;
-  --color-growly-main-darker: #25eb7e;
+  --color-growly-main-darker: #179b52;
+  --color-growly-main-almDark: #1bb962;
   --color-growly-white: #ffffff;
   --color-growly-contrast: #dddddd;
   /* */
