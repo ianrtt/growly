@@ -1,7 +1,6 @@
 import NButton from "@/components/ui/NButton";
-import NText from "@/components/ui/NText";
 import ActionText from "@/components/ui/ActionText";
-import { ArrowUpRightFromSquare, ArrowUpRight } from "lucide-react";
+import { ArrowUpRight } from "lucide-react";
 
 export default function Navbar(){
     return (
