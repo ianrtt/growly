@@ -1,7 +1,7 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import Navbar from '@/components/page/Navbar';
-import Footer from '@/components/page/Footer';
+import Navbar from '@pg/Navbar';
+import Footer from '@pg/Footer';
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -55,7 +55,7 @@ export const metadata = {
     siteName: "Growly",
     images: [
       {
-        url: "/assets/g_growly.webp",
+        url: "/assets/growly.webp",
         width: 1200,
         height: 630,
         alt: "Growly - Knowledge exchange platform."
@@ -68,7 +68,7 @@ export const metadata = {
     card: "summary_large_image",
     title: info.title,
     description: info.description,
-    images: ["/assets/g_growly.webp"],
+    images: ["/assets/growly.webp"],
   },
   alternates: {
     canonical: info.url

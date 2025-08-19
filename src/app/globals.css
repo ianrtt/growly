@@ -8,11 +8,10 @@
 @theme {
   /* Growly  */
   --color-growly-main: #1dd16e;
-  --color-growly-main-darker: #179b52;
-  --color-growly-main-almDark: #1bb962;
-  --color-growly-white: #ffffff;
+  --color-growly-main-darker: #1dc468;
+  --color-growly-main-almDark: #19b860;
+  --color-growly-white: #fff;
   --color-growly-contrast: #dddddd;
-  /* */
 }
 
 @media (prefers-color-scheme: dark) {

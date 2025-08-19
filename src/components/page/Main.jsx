@@ -1,7 +1,8 @@
-import ActionText from "@/components/ui/ActionText";
 import { ArrowUpRightFromSquare } from "lucide-react";
-import ShinyButton from "@/components/ui/ShinyButton";
-import Separator from "../ui/Separator";
+
+import ActionText from "@ui/ActionText";
+import ShinyButton from "@ui/ShinyButton";
+import ContentBlock from "@ui/ContentBlock";
 
 export default function Main(){
     return (
@@ -24,10 +25,15 @@ export default function Main(){
             </div>
           </section>
 
-          <Separator />
+          <section id='in-block' className="flex flex-col items-center justify-center text-center my-10">
+            <ContentBlock variant={"dark"} >
 
-          <section id='in-block' className="w-full flex flex-col items-center justify-start text-center my-10">
-            <div className="border border-gray-300 shadow-lg w-1/2 min-h-screen bg-gray-800 rounded-4xl text-white">
+            <div id="badge" className="my-5 ml-5 mr-10 rounded-4xl">
+                <ContentBlock variant={"light"} w={'1/4'} >
+                <span className="text-gray-800 text-sm font-bold">Badge</span>
+              </ContentBlock>
+            </div>
+
             <h1 className="m-5 font-bold text-3xl">Text Here</h1>
             <p className="m-5 font-medium text-sm">
               Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
@@ -36,7 +42,7 @@ export default function Main(){
               Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum 
               Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum  
             </p>
-            </div>
+            </ContentBlock>
           </section>
       
         </main>
