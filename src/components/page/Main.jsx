@@ -26,10 +26,10 @@ export default function Main(){
           </section>
 
           <section id='in-block' className="flex flex-col items-center justify-center text-center my-10">
-            <ContentBlock variant={"dark"} >
+            <ContentBlock variant={"dark"}>
 
-            <div id="badge" className="my-5 ml-5 mr-10 rounded-4xl">
-                <ContentBlock variant={"light"} w={'1/4'} >
+            <div id="badge" className="my-5 ml-5 mr-10">
+                <ContentBlock variant={"light"}>
                 <span className="text-gray-800 text-sm font-bold">Badge</span>
               </ContentBlock>
             </div>
