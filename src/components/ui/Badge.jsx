@@ -3,10 +3,10 @@ const gradients = {
     light: "from-gray-200 via-gray-300 to-gray-400",
 };
 
-export default function ContentBlock({ variant, children, wdt }){
+export default function Badge({ variant, children, wdt }){
     return(
         <>
-        <div className={`border border-gray-300 shadow-lg w-${wdt} min-h-max bg-radial ${gradients[variant]} rounded-4xl text-white`}>
+        <div className={`border border-gray-300 shadow-lg w-${wdt} bg-radial ${gradients[variant]} rounded-4xl text-white`}>
         {children}
         </div>
         </>

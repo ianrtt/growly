@@ -30,7 +30,7 @@ export const metadata = {
   metadataBase, */
   title: info.title,
   icons: {
-    icon: "assets/favicon.ico"
+    icon: "/assets/favicon.ico"
   },
   description: info.description,
   keywords: [

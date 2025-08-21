@@ -3,6 +3,7 @@ import { ArrowUpRightFromSquare } from "lucide-react";
 import ActionText from "@ui/ActionText";
 import ShinyButton from "@ui/ShinyButton";
 import ContentBlock from "@ui/ContentBlock";
+import Badge from "@ui/Badge";
 
 export default function Main(){
     return (
@@ -25,14 +26,16 @@ export default function Main(){
             </div>
           </section>
 
-          <section id='in-block' className="flex flex-col items-center justify-center text-center my-10">
-            <ContentBlock variant={"dark"}>
 
-            <div id="badge" className="my-5 ml-5 mr-10">
-                <ContentBlock variant={"light"}>
-                <span className="text-gray-800 text-sm font-bold">Badge</span>
-              </ContentBlock>
-            </div>
+          { /* BLOCK [ 1 ] */ }
+          <section id='block1' className="flex flex-wrap items-center justify-center text-center my-10">
+            <ContentBlock variant={"dark"} wdt={'1/2'} >
+
+              <div className="my-5 ml-5 mr-10">
+                  <Badge variant={"light"} wdt={'1/4'}>
+                  <span className="text-gray-800 text-sm font-bold">Badge</span>
+                </Badge>
+              </div>
 
             <h1 className="m-5 font-bold text-3xl">Text Here</h1>
             <p className="m-5 font-medium text-sm">

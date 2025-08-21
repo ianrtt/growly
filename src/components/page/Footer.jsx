@@ -2,8 +2,8 @@ import ContentBlock from "@ui/ContentBlock";
 
 export default function Footer(){
     return (
-      <footer>
-          <ContentBlock variant={'light'} h={'max'} w={'full'} round={'lg'} >
+      <footer className="flex items-center justify-center">
+          <ContentBlock variant={'light'} wdt={'3/4'} >
             <img src="assets/growly.webp" className="absolute h-24 mx-5" alt="Growly Logo" />
             <ul className="flex justify-center m-5 text-sm font-semibold text-black sm:mb-0 dark:text-gray-400">
                 <li>
