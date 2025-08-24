@@ -6,7 +6,7 @@ import ActionText from "@ui/ActionText";
 export default function Navbar(){
     return (
         <header>
-          <nav className="flex justify-between rounded-full items-center bg-growly-white text-black font-bold p-4 mt-4 mb-6 h-16 w-4/4 mx-auto">
+          <nav className="flex fixed top-0 justify-between rounded-full items-center bg-growly-white text-black font-bold p-4 mb-6 h-16 w-4/4 mx-auto">
             <img src="assets/growly.webp" alt="" className="h-fit w-1/6"/>
             <div className="flex items-center">
               <ul className="flex pr-5">
