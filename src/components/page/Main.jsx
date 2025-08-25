@@ -6,6 +6,7 @@ import ActionText from "@ui/ActionText";
 import ShinyButton from "@ui/ShinyButton";
 import ContentBlock from "@ui/ContentBlock";
 import Badge from "@ui/Badge";
+import Link from "next/link";
 
 export default function Main(){
     return (
@@ -23,8 +24,8 @@ export default function Main(){
             </div>
         
             <div className="mt-5">
-              <ShinyButton text={'Get started'} />
-              <ActionText page={'#'} text={'Learn more'} Icon={ArrowUpRightFromSquare} />
+              <ShinyButton page={'explore'} text={'Get started'} />
+              <ActionText page={'learn'} text={'Learn more'} Icon={ArrowUpRightFromSquare} />
             </div>
           </section>
           
@@ -48,7 +49,7 @@ export default function Main(){
               </div>
 
               <h1 className="mt-10 font-bold text-5xl text-white max-w-1/3">Learn <br />for free</h1>
-              <p className="mt-5 mb-3 text-lg text-white opacity-90 max-w-2/5">
+              <p className="mt-5 mb-3 text-lg text-white opacity-90 drop-shadow-2xl drop-shadow-black max-w-2/5">
               Connect with others and grow together through mutual learning. 
               Share your skills, learn new ones, and thrive in a supportive community 
               — no payments, no barriers.
@@ -77,11 +78,10 @@ export default function Main(){
                 </Badge>
               </div>
 
-              <h1 className="mt-10 font-bold text-5xl text-white max-w-1/3">Learn <br />for free</h1>
-              <p className="mt-5 mb-3 text-lg text-white opacity-90 max-w-2/5">
-              Connect with others and grow together through mutual learning. 
-              Share your skills, learn new ones, and thrive in a supportive community 
-              — no payments, no barriers.
+              <h1 className="mt-10 font-bold text-5xl text-white max-w-1/3">Live <br />& learn</h1>
+              <p className="mt-5 mb-3 text-lg text-white opacity-90 drop-shadow-2xl drop-shadow-black max-w-2/5">
+                Embrace life with curiosity and connection.
+                Discover new paths, explore passions, and enjoy growth in every moment.
               </p>
             </div>
           </div>
@@ -107,11 +107,10 @@ export default function Main(){
                 </Badge>
               </div>
 
-              <h1 className="mt-10 font-bold text-5xl text-white max-w-1/3">Learn <br />for free</h1>
-              <p className="mt-5 mb-3 text-lg text-white opacity-90 max-w-2/5">
-              Connect with others and grow together through mutual learning. 
-              Share your skills, learn new ones, and thrive in a supportive community 
-              — no payments, no barriers.
+              <h1 className="mt-10 font-bold text-5xl text-white max-w-1/3">Teach <br />& inspire</h1>
+              <p className="mt-5 mb-3 text-lg text-white opacity-90 drop-shadow-2xl drop-shadow-black max-w-2/5">
+                Empower others by sharing your knowledge and experiences.
+                Your skills can spark growth, create opportunities, and inspire positive change.
               </p>
             </div>
           </div>
